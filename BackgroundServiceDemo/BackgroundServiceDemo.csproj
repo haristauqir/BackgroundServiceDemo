@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-BackgroundServiceDemo-0F14A11D-AA1A-436B-B9F4-E9365DAB6721</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\.gitignore" />
+      <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+      <Content Include="bin\Debug\net6.0\appsettings.json" />
+      <Content Include="bin\Debug\net6.0\BackgroundServiceDemo" />
+      <Content Include="bin\Debug\net6.0\BackgroundServiceDemo.deps.json" />
+      <Content Include="bin\Debug\net6.0\BackgroundServiceDemo.dll" />
+      <Content Include="bin\Debug\net6.0\BackgroundServiceDemo.pdb" />
+      <Content Include="bin\Debug\net6.0\BackgroundServiceDemo.runtimeconfig.json" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Options.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll" />
+      <Content Include="bin\Debug\net6.0\System.Diagnostics.EventLog.dll" />
+    </ItemGroup>
+</Project>
